@@ -1,0 +1,32 @@
+.loading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.filter-container{
+    margin-top: 70px;
+}
+.home-page-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.home-page-properties-list-container{
+    display: flex;
+    padding-top: 100px;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    overflow: auto;
+}
+.toast-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1050;
+}
